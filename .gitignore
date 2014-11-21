@@ -1,3 +1,7 @@
+packages/
+bin/
+obj/
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -17,6 +21,8 @@ $RECYCLE.BIN/
 # =========================
 # Operating System Files
 # =========================
+*.dll
+#.pdb
 
 # OSX
 # =========================
@@ -41,3 +47,7 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+*.pdb
+*.nupkg
+*.nupkg
